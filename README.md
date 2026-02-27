@@ -2,7 +2,7 @@
 
 🔭 **Computer Science** Student at Langara College | Passionate about **Software Engineering**
 
-🚀 Currently Working On: **JobHuntPro** – A project to help job seekers manage applications
+🚀 Currently Working On: **AutoDev** – An AI agent that analyzes repositories, generates safe code changes, and opens production-ready pull requests.
 
 👯 Let’s Collaborate: Excited to work on innovative projects that make a **real-world impact**!
 
