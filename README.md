@@ -2,15 +2,12 @@
 
 🔭 **Computer Science** Student at Langara College | Passionate about **Software Engineering**
 
-🚀 Currently Working On: **AutoDev** – An AI agent that analyzes repositories, generates safe code changes, and opens production-ready pull requests.
-
 👯 Let’s Collaborate: Excited to work on innovative projects that make a **real-world impact**!
 
 💬 Ask Me About: **Software engineering, hackathons, open-source contributions,** or anything else—always eager to learn, solve problems, and create meaningful impact!<br />
 
 # 📫 Reach Me:
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/abdu-alim-arlikhozhaev-158a4b2a4)
-[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/arlikhozhaev) 
 [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:arlikhozhaevca@gmail.com) <br><br> 
 
 # 💻 Tech Stack:
