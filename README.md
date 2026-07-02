@@ -4,23 +4,54 @@
 
 **Open to:** Software engineering internships & new-grad roles (full-stack, backend, AI-adjacent product engineering)
 
-I build and ship full-stack web applications end-to-end — from UI and APIs to databases, auth, tests, CI, and production deploys.
+I own products **end-to-end** — UI, APIs, data models, auth, automated tests, CI, and production deploys.  
 
----
-## Featured work
-Both featured projects are **live in production** on Vercel.
-| Project | What it does | Links |
-|--------|----------------|-------|
-| **ReviewLens** | Turn product reviews into actionable insights — AI themes, sentiment, and an executive summary. Shareable reports, PDF/CSV export, password-protected links. **Built with** Next.js, TypeScript, Prisma, PostgreSQL, OpenAI · **51 unit tests** · GitHub Actions CI. | [Website](https://review-lens-app.vercel.app/) · [Code](https://github.com/Arlikhozhaev/ReviewLens) |
-| **ProfessorMatch&nbsp;AI** | AI chat that helps students find professors by **meaning**, not just keywords — with auth and usage analytics. **Under the hood:** hybrid RAG (vector search → semantic fallback → keyword search), streaming responses. **23 unit + 4 E2E tests** · CI. | [Website](https://professor-match-ai.vercel.app/) · [Code](https://github.com/Arlikhozhaev/RateMyProfessor-RAG) |
+**3 live applications** on Vercel · **113+ automated tests** · CI on every change.
 
 ---
 
-## What I focus on
+## Selected work
 
-- **Full-stack** — APIs, data modeling, authentication, deployment
-- **Applied AI** — embeddings, RAG, and LLM-powered product features where they add real value
-- **Engineering discipline** — automated tests, CI, typed APIs, intentional scope decisions  
+### [ReviewLens](https://review-lens-app.vercel.app/) — AI-powered review intelligence
+
+**Turned unstructured customer feedback into actionable, shareable reports**, measured by a full production upload → analyze → export workflow with **51 passing unit tests** and GitHub Actions CI, by building a Next.js/TypeScript application with OpenAI-driven theme and sentiment analysis, Prisma/PostgreSQL persistence, PDF/CSV export, and password-protected share links.
+
+| | |
+|:--|:--|
+| **Impact** | Product teams get themes, sentiment, and an executive summary without manual review triage |
+| **Stack** | Next.js · TypeScript · Prisma · PostgreSQL · OpenAI · Vitest · GitHub Actions · Vercel |
+| **Links** | [Website](https://review-lens-app.vercel.app/) · [Code](https://github.com/Arlikhozhaev/ReviewLens) |
+
+---
+
+### [AutoDev](https://autodev-one.vercel.app/) — autonomous codebase improvement agent
+
+**Automated the improve-and-ship loop for Python repositories**, measured by a **5-phase async pipeline** (clone → analyze → LLM refactor → validate → GitHub PR) with **5 safety gates**, **4 static analysis tools**, and **35 pytest tests**, by engineering FastAPI + Celery workers on PostgreSQL/Redis, Claude-powered refactors with **3 retry attempts per issue**, and a Next.js operations dashboard deployed across **6 services** (Railway + Vercel).
+| | |
+|:--|:--|
+| **Impact** | Paste a GitHub URL → static analysis and validated refactors → PR only if every safety gate passes |
+| **Stack** | Python · FastAPI · Celery · Redis · PostgreSQL · Claude · Next.js · Docker · Railway · Vercel |
+| **Links** | [Website](https://autodev-one.vercel.app/) · [API Docs](https://autodev-production.up.railway.app/docs) · [Code](https://github.com/Arlikhozhaev/autodev) |
+
+---
+
+### [ProfessorMatch&nbsp;AI](https://professor-match-ai.vercel.app/) — hybrid RAG professor discovery
+
+**Improved search quality when exact keywords miss the intent**, measured by a **3-stage retrieval pipeline** (vector → semantic → keyword fallback) with **23 unit + 4 E2E tests** and streaming LLM responses in production, by implementing Pinecone embeddings, Next.js APIs, authentication, and usage analytics.
+| | |
+|:--|:--|
+| **Impact** | Students find relevant professors by meaning, not just name or department strings |
+| **Stack** | Next.js · Node.js · Pinecone · OpenAI (GPT-4o-mini) · Playwright · Vitest · CI · Vercel |
+| **Links** | [Website](https://professor-match-ai.vercel.app/) · [Code](https://github.com/Arlikhozhaev/RateMyProfessor-RAG) |
+
+---
+
+## How I build (XYZ)
+- **Raised release confidence across 3 production apps**, measured by **113+ automated tests** and CI on every push, by writing unit, API, and E2E coverage around core user and pipeline flows. 
+- **Shortened time-to-insight for review data**, measured by one-click CSV upload → themed summary in a single session, by designing async analysis pipelines and persistent report storage. 
+- **Prevented unsafe LLM output from shipping**, measured by **5 validation gates** blocking PRs unless syntax, lint, security, diff, and pytest checks pass, by treating model output as untrusted until structurally verified.  
+- **Reduced irrelevant RAG answers**, measured by layered fallback retrieval when vector search underperforms, by combining Pinecone similarity, semantic re-ranking, and keyword search.  
+- **Kept long-running work off the request thread**, measured by sub-second API responses while clone/analyze/refactor runs for minutes, by offloading pipelines to Celery workers with live task polling.
 
 ---
 
@@ -145,3 +176,6 @@ Both featured projects are **live in production** on Vercel.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/arlikhozhaev)
 [![Email](https://img.shields.io/badge/Email-arlikhozhaevca@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:arlikhozhaevca@gmail.com)
+[![Portfolio](https://img.shields.io/badge/Portfolio-arlikhozhaev.dev-000?style=for-the-badge&logo=googlechrome&logoColor=white)](https://arlikhozhaev.dev)
+
+---
