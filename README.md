@@ -1,3 +1,5 @@
+![Abdu Alim](./assets/abdu-alim-readme-banner.svg)
+
 # Hi, I'm Abdu Alim 👋
 
 **Computer Science @ Langara College** | Full-stack Software Engineer 
