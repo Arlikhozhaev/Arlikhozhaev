@@ -2,13 +2,15 @@
 
 # Hi, I'm Abdu Alim 👋
 
-**Computer Science @ Langara College** | Full-stack Software Engineer 
+**Computer Science @ Langara College** | Full-stack Software Engineer
 
 **Open to:** Software engineering internships & new-grad roles (full-stack, backend, AI-adjacent product engineering)
 
-I own products **end-to-end** — UI, APIs, data models, auth, automated tests, CI, and production deploys.  
+I own products **end-to-end** — UI, APIs, data models, auth, automated tests, CI, and production deploys.
 
 **3 live applications** on Vercel · **113+ automated tests** · CI on every change.
+
+**Open source:** [typescript-eslint](https://github.com/typescript-eslint/typescript-eslint) — [2 merged PRs](https://github.com/typescript-eslint/typescript-eslint/pulls?q=is%3Apr+author%3AArlikhozhaev+is%3Amerged) on ESLint's TypeScript plugin (`unified-signatures`, `no-meaningless-void-operator`).
 
 ---
 
@@ -179,5 +181,3 @@ I own products **end-to-end** — UI, APIs, data models, auth, automated tests, 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/arlikhozhaev)
 [![Email](https://img.shields.io/badge/Email-arlikhozhaevca@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:arlikhozhaevca@gmail.com)
 [![Portfolio](https://img.shields.io/badge/Portfolio-arlikhozhaev.dev-000?style=for-the-badge&logo=googlechrome&logoColor=white)](https://arlikhozhaev.dev)
-
----
