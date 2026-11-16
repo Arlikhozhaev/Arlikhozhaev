@@ -2,7 +2,7 @@
 
 # Hi, I'm Abdu Alim 👋
 
-**Computer Science @ Langara College** | Full-stack Software Engineer
+**Computer Science @ Langara College** | Software Engineer
 
 **Open to:** Software engineering internships & new-grad roles (full-stack, backend, AI-adjacent product engineering)
 
